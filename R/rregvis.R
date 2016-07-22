@@ -53,7 +53,8 @@ rregvis <- function(before,
 #'
 #' @export
 rregvisOutput <- function(outputId, width = '100%', height = '400px'){
-  htmlwidgets::shinyWidgetOutput(outputId, 'rregvis', width, height, package = 'rregvis')
+  htmlwidgets::shinyWidgetOutput(outputId, 'rregvis', width, height,
+                                 package = 'rregvis')
 }
 
 #' @rdname rregvis-shiny

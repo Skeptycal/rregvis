@@ -1,0 +1,4 @@
+Name: Visualize Regex
+Description: A visual regular expression editor.
+Binding: rregvisAddin
+Interactive: true
